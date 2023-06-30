@@ -44,9 +44,10 @@
 }
 
 .signUp__Input--Email {
+  border: 1px solid var(--White);
   padding: 1rem;
   width: 400px;
-  border-radius: 1rem;
+  border-radius: 10px;
 }
 
 .sign__Submit--Button {
