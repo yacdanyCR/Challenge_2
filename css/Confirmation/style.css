@@ -33,3 +33,16 @@
   background-color: var(--Tomato);
   transition: 0.5s;
 }
+
+@media (max-width: 768px) {
+  body {
+    background-color: var(--White);
+  }
+  .confirmation__Button {
+    width: max-content;
+  }
+  .corfirmation__Section--Message {
+    margin-top: 3rem;
+    padding: 2rem;
+  }
+}

@@ -66,6 +66,13 @@
 }
 
 @media (max-width: 768px) {
+  body {
+    background-color: var(--White);
+  }
+  .sign-up__Image > img {
+    width: 300px;
+    padding-top: 1rem;
+  }
   .sign-up__Container {
     flex-direction: column-reverse;
     margin-top: 0px;
