@@ -80,8 +80,8 @@
     padding: 1.5rem;
   }
   .sign-up__Tittle {
-    text-align: center;
-    padding: 1rem;
+    padding: 5px;
+    font-size: 50px;
   }
   .signUp__Input--Email {
     width: 100%;
