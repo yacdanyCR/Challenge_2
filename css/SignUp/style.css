@@ -54,12 +54,17 @@
 }
 
 .sign__Submit--Button {
+  background-color: var(--Dark-Slate-Grey);
   padding: 1rem;
   border-radius: 1rem;
   width: 400px;
-  background-color: var(--Tomato);
   color: var(--White);
   font-size: 18px;
   border: none;
   cursor: pointer;
+}
+
+.sign__Submit--Button:hover {
+  background-color: var(--Tomato);
+  transition: 0.5s;
 }
