@@ -13,10 +13,6 @@
   border-radius: 2rem;
 }
 
-.sign-up__Credential--Information {
-  width: 500px;
-}
-
 .sign-up__Tittle {
   font-size: 60px;
   margin: 2rem 0;
@@ -67,4 +63,30 @@
 .sign__Submit--Button:hover {
   background-color: var(--Tomato);
   transition: 0.5s;
+}
+
+@media (max-width: 768px) {
+  .sign-up__Container {
+    flex-direction: column-reverse;
+    margin-top: 0px;
+    border-radius: 0%;
+    padding: 0;
+    padding-bottom: 2.5rem;
+  }
+  .sign-up__Credential--Information {
+    align-items: center;
+  }
+  .signUp--info {
+    padding: 1.5rem;
+  }
+  .sign-up__Tittle {
+    text-align: center;
+    padding: 1rem;
+  }
+  .signUp__Input--Email {
+    width: 100%;
+  }
+  .sign__Submit--Button {
+    width: 100%;
+  }
 }
