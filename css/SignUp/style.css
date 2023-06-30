@@ -65,6 +65,18 @@
   transition: 0.5s;
 }
 
+.errorEmail--Input {
+  border: 1px solid lightcoral;
+  background-color: var(--Tomato);
+  border: none;
+}
+
+.email--Error {
+  margin-bottom: 1rem;
+  font-weight: bolder;
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   body {
     background-color: var(--White);
